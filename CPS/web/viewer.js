@@ -49,7 +49,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "/CPS/dmts-cps-v.1.3.pdf",
+    value: "/CPS/dmts-cps-v.1.4.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
