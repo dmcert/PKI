@@ -32,10 +32,6 @@ html.ac-ls-visible { margin-top: 0; }
 #ca.overview #main.content .column.last .callout p { padding:20px; margin-bottom:0; }
 #ca.overview #main.content .column.last .callout img.webtrust { margin:30px 0 30px 0; }
 
-/* Elements with Background Icons */
-span.check { background: url(/certificateauthority/images/icon_check_green_10x10_20101130.png) 85px 0.3em no-repeat; display: block;  }
-a.pdf { background: url(/certificateauthority/images/icon_pdf_16x16_20101130.png) 0 3px no-repeat; display: block; padding-left: 22px; padding-top:3px; }
-
 /* Root Certificate Program Subpage */
 #ca.ca-program #main.content h2 { padding-bottom:16px; }
 #ca.ca-program #main.content p.list-head { margin-bottom:7px; }
