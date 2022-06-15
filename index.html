@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=1024" />
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
-    <title>David Miller Trust Services</title>
+    <title>David Miller Trust Services PKI</title>
 
     <link rel="stylesheet" href="static/css/base.css" type="text/css" />
     <link rel="stylesheet" href="static/css/blackout.css" type="text/css" />
@@ -17,7 +17,7 @@
 
 
     <table align ="center" width="80%"><tr><td>
-        <h1 align ="center">David Miller Trust Services</h1></td></tr>
+        <h1 align ="center">David Miller Trust Services PKI</h1></td></tr>
         <td>
             <p class="intro" align="center">
                 David Miller established the David Miller Trust Services in support of the generation, issuance, distribution, revocation, administration, and management of public/private cryptographic keys that are contained in CA-signed X.509 Certificates.
@@ -68,6 +68,7 @@
                             <li><a href="https://github.com/CitizenBeta2/AIA" class="more">Other Intermediate CAs</a></li>
                         </ul>
                     </td>
+                    </tr>
             </table>
         </div>
 
@@ -107,18 +108,19 @@
             <h2>Issuing CA</h2>
             <table>
                 Primary Issuing CA:
-                <ul class="disc">
-                    <li><a href="https://r1.cacerts.davidmiller.top/DMTSExternalRSACAG2.crt" class="more">DMTS External RSA CA - G2</a></li>
-                    <li><a href="https://r2.cacerts.davidmiller.top/DMTSExternalECCCAG2.crt" class="more">DMTS External ECC CA - G2</a></li>
-                    <li><a href="https://r1.cacerts.davidmiller.top/OpenRSACAG2.crt" class="more">David Miller Open RSA CA - G2</a></li>
-                    <li><a href="https://mitm.cacerts.davidmiller.top/MitMRootCA.crt" class="more">David Miller MitM CA - G1 (Root)</a></li>
-                </ul>
+                <td>
+                    <ul class="disc">
+                        <li><a href="https://r1.cacerts.davidmiller.top/DMTSExternalRSACAG2.crt" class="more">DMTS External RSA CA - G2</a></li>
+                        <li><a href="https://r2.cacerts.davidmiller.top/DMTSExternalECCCAG2.crt" class="more">DMTS External ECC CA - G2</a></li>
+                        <li><a href="https://r1.cacerts.davidmiller.top/OpenRSACAG2.crt" class="more">David Miller Open RSA CA - G2</a></li>
+                        <li><a href="https://cert.davidmiller.top/MitMRootCA.crt" class="more">David Miller MitM CA - G1 (Root)</a></li>
+                    </ul>
                 Primary Cross-Signing Certificate:
                 <ul class="disc">
                     <li><a href="https://cert.davidmiller.top/RootCertificateAuthority_Legacy.crt" class="more">David Miller Root Certificate Authority - Legacy</a></li>
                     <li><a href="https://r1.cacerts.davidmiller.top/R3RootCA.crt" class="more">David Miller Root CA - R3 (Provided before 2024)</a></li>
                 </ul>
-            </td></tr></table>
+            </td></table>
         </div>
         <hr width="80%" height="1px" color="#e6e6e6">
 
@@ -127,14 +129,26 @@
             <div class="grid2col column">
                 <h2>Repository</h2>
                 <table>
-                    <li><a href="https://dl.davidmiller.top/TrustRootCATool_v9.exe" class="more">Download Trust Root CA Tool</a></li>
-                    <li><a href="https://dl.davidmiller.top/TSResponder_v5.exe" class="more">Download Local Timestamp Responder</a></li>
-                    <li><a href="https://dl.davidmiller.top/OpenTimestamp2022.crt" class="more">Download Timestamp Certificate</a></li>
-                    <li><a href="https://key.vault.davidmiller.top/OpenTimestamp2022.key" class="more">Download Timestamp Private Key</a></li>
-                    <li><a href="https://dl.davidmiller.top/G10_Everyone_SHA2_CodeSign_Jun_2022.crt" class="more">Download Code Signing Certificate</a></li>
-                    <li><a href="https://key.vault.davidmiller.top/G10_Everyone_SHA2_CodeSign_Jun_2022.key" class="more">Download Code Signing Private Key</a></li>
-                    <li><a href="https://key.vault.davidmiller.top/G10_Everyone_SHA2_CodeSign_Jun_2022.pfx" class="more">Download Code Signing PFX File (Password 1234)</a></li>
-                    <li><a href="https://pki.davidmiller.top/log" class="more">Update Log</a></li>
+                    <td>
+                        Tools:
+                        <ul class="disc">
+                            <li><a href="https://dl.davidmiller.top/TrustRootCATool_v9.exe" class="more">Download Trust Root CA Tool</a></li>
+                            <li><a href="https://dl.davidmiller.top/TSResponder_v5.exe" class="more">Download Local Timestamp Responder</a></li>
+                        </ul>
+                        Public Certificates:
+                        <ul class="disc">
+                        <li><a href="https://dl.davidmiller.top/OpenTimestamp2022.crt" class="more">Download Timestamp Certificate</a></li>
+                        <li><a href="https://key.vault.davidmiller.top/OpenTimestamp2022.key" class="more">Download Timestamp Private Key</a></li>
+                        <li><a href="https://dl.davidmiller.top/G10_Everyone_SHA2_CodeSign_Jun_2022.crt" class="more">Download Code Signing Certificate</a></li>
+                        <li><a href="https://key.vault.davidmiller.top/G10_Everyone_SHA2_CodeSign_Jun_2022.key" class="more">Download Code Signing Private Key</a></li>
+                        <li><a href="https://key.vault.davidmiller.top/G10_Everyone_SHA2_CodeSign_Jun_2022.pfx" class="more">Download Code Signing PFX File (Password 1234)</a></li>
+                        </ul>
+                        Other URLs
+                        <ul class="disc">
+                        <li><a href="https://pki.davidmiller.top/log" class="more">Update Log</a></li>
+                        <li><a href="https://www.davidmiller.top" class="more">Homepage</a></li>
+                        <li><a href="https://github.com/CitizenBeta2/PKI" class="more">GitHub</a></li>
+                        </ul>
                 </td></table>
     
             </div>
@@ -146,12 +160,14 @@
                 </ul>
                 <h2>About</h2>
                 <table>
-                    To better protect our users from security issues related to the use of public key infrastructure certificates and enhance the experience for users, DMTS use a <a href="https://dl.davidmiller.top/TrustRootCATool_v9.exe" class="more">tool</a> to trust root certificates. You may apply to have your root certificate by download the root certificates.
+                    <td>
+                        To better protect our users from security issues related to the use of public key infrastructure certificates and enhance the experience, DMTS use a <a href="https://dl.davidmiller.top/TrustRootCATool_v9.exe" class="more">tool</a> to trust root certificates. You may apply to have your root certificate by download it.
                 </td></table>
                 <br>
                 <h2>Contact</h2>
                 <table>
-                    Contact the DMTS PKI team at <a href="mailto:dmcert@outlook.com" class="more">dmcert@outlook.com</a>
+                    <td>
+                        Contact the DMTS PKI team at <a href="mailto:dmcert@outlook.com" class="more">dmcert@outlook.com</a>
                 </td></table>
                 </div>
     <script src="https://static.davidmiller.top/js/statuspage.js"></script>
