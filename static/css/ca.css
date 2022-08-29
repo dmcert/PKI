@@ -31,10 +31,3 @@ html.ac-ls-visible { margin-top: 0; }
 #ca.overview #main.content .column.last .callout h3 { border-bottom:1px solid #e4e4e4; padding:10px 0 10px 20px; margin-bottom:0; text-align:left; }
 #ca.overview #main.content .column.last .callout p { padding:20px; margin-bottom:0; }
 #ca.overview #main.content .column.last .callout img.webtrust { margin:30px 0 30px 0; }
-
-/* Root Certificate Program Subpage */
-#ca.ca-program #main.content h2 { padding-bottom:16px; }
-#ca.ca-program #main.content p.list-head { margin-bottom:7px; }
-#ca.ca-program #main.content ol li { padding-bottom:10px; }
-#ca.ca-program #main.content ol li p { margin-bottom:0; }
-#ca.ca-program #main.content ol li ul li { padding-bottom:0; }
