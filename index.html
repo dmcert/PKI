@@ -60,6 +60,7 @@
                 </td>
                     <td>
                         <ul class="disc">
+
                             <li><a href="https://r1.cacerts.davidmiller.top/SHA2OVServerCAG3.crt" class="more">David Miller SHA2 OV Server CA - G3</a></li>
                             <li><a href="https://r1.cacerts.davidmiller.top/SHA2EVServerCAG2.crt" class="more">David Miller SHA2 EV Server CA - G2</a></li>
                             <li><a href="https://r3.cacerts.davidmiller.top/HighAssuranceCodeSigningCAG2.crt" class="more">David Miller High Assurance Code Signing CA - G2</a></li>
@@ -69,7 +70,6 @@
                             <li><a href="https://r1.cacerts.davidmiller.top/SHA2TimestampingCAG4.crt" class="more">David Miller SHA2 Timestamping CA - G4</a></li>
                             <li><a href="https://r2.cacerts.davidmiller.top/ECCOVServerCAG4.crt" class="more">David Miller ECC OV Server CA - G4</a></li>
                             <li><a href="https://r2.cacerts.davidmiller.top/ECCEVServerCAG2.crt" class="more">David Miller ECC EV Server CA - G2</a></li>
-
                             <li><a href="https://repo.davidmiller.top/pki/cacerts/" class="more">Intermediate CA Repository</a></li>
                         </ul>
                     </td>
@@ -94,6 +94,8 @@
                             <li><a href="https://r1.crl.davidmiller.top/R1RootCA.crl" class="more">David Miller Root CA - R1</a></li>
                             <li><a href="https://r2.crl.davidmiller.top/R2RootCA.crl" class="more">David Miller Root CA - R2</a></li>
                             <li><a href="https://r3.crl.davidmiller.top/R3RootCA.crl" class="more">David Miller Root CA - R3</a></li>
+                            <li><a href="https://r1.crl.davidmiller.top/DMTSExternalRSACAG2.crl" class="more">DMTS External RSA CA - G2</a></li>
+                            <li><a href="https://r2.crl.davidmiller.top/DMTSExternalECCCAG2.crl" class="more">DMTS External ECC CA - G2</a></li>
                             <li><a href="https://r1.crl.davidmiller.top/SHA2OVServerCAG3.crl" class="more">David Miller SHA2 OV Server CA - G3</a></li>
                             <li><a href="https://r1.crl.davidmiller.top/SHA2EVServerCAG2.crl" class="more">David Miller SHA2 EV Server CA - G2</a></li>
                             <li><a href="https://r3.crl.davidmiller.top/HighAssuranceCodeSigningCAG2.crl" class="more">David Miller High Assurance Code Signing CA - G2</a></li>
@@ -105,39 +107,32 @@
                             <li><a href="https://r2.crl.davidmiller.top/ECCEVServerCAG2.crl" class="more">David Miller ECC EV Server CA - G2</a></li>
                             <li><a href="https://crl2.davidmiller.top/GlobalServicesCA1G2.crl" class="more">TrusAuth - David Miller Global Services CA1 - G2</a></li>
                             <li><a href="https://crl2.davidmiller.top/GlobalServicesCA2G2.crl" class="more">TrusAuth - David Miller Global Services CA2 - G2</a></li>
+                            <li><a href="https://crl2.davidmiller.top/GlobalServicesCA3.crl" class="more">Raytonne - David Miller Global Services CA3 - G1</a></li>
                             <li><a href="https://repo.davidmiller.top/pki/crl/" class="more">CRL Repository</a></li>
                         </ul>
                     </td></tr></table>
 
         </div>
         <div class="grid2col column">
-            <h2>Issuing CA</h2>
+            <h2>External CA</h2>
             <table>
-                Primary Issuing CA:
-                <td>
-                    <ul class="disc">
-                        <li><a href="https://r1.cacerts.davidmiller.top/DMTSExternalRSACAG2.crt" class="more">DMTS External RSA CA - G2</a></li>
-                        <li><a href="https://r2.cacerts.davidmiller.top/DMTSExternalECCCAG2.crt" class="more">DMTS External ECC CA - G2</a></li>
-                        <li><a href="https://r1.cacerts.davidmiller.top/OpenRSACAG2.crt" class="more">David Miller Open RSA CA - G2</a></li>
-                    </ul>
-                Primary Cross-Signing Certificate:
+                David Miller Trust Services:
                 <ul class="disc">
+                    <li><a href="https://r1.cacerts.davidmiller.top/DMTSExternalRSACAG2.crt" class="more">DMTS External RSA CA - G2</a></li>
+                    <li><a href="https://r2.cacerts.davidmiller.top/DMTSExternalECCCAG2.crt" class="more">DMTS External ECC CA - G2</a></li>
                     <li><a href="https://repo.davidmiller.top/pki/cacerts/cross-sign/RootCertificateAuthorityG2.crt" class="more">David Miller Root Certificate Authority</a> (Legacy)</li>
                     <li><a href="https://repo.davidmiller.top/pki/cacerts/cross-sign/R3RootCAG2.crt" class="more">David Miller Root CA - R3</a> (Cross-Signed by <a href="https://r1.cacerts.davidmiller.top/R1RootCA.crt" class="more">R1</a>)</li>
-                    <li><a href="https://repo.davidmiller.top/pki/cacerts/cross-sign/T1RootCA.crt" class="more">David Miller Test Root CA - T1</a></li>
-                    <li><a href="https://repo.davidmiller.top/pki/cacerts/cross-sign/T2RootCA.crt" class="more">David Miller Test Root CA - T2</a></li>
-                    <li><a href="https://repo.davidmiller.top/pki/cacerts/cross-sign/MitMCAG2.crt" class="more">David Miller MitM CA - G2</a></li>
                 </ul>
                 Partner - TrusAuth:
                 <ul class="disc">
-                    <li><a href="https://www.trusauth.eu.org" class="more">Website</a></li>
+                    <li><a href="https://www.trusauth.eu.org" class="more">TrusAuth PKI Website</a></li>
                     <li><a href="https://cacerts2.davidmiller.top/GlobalServicesCA1G2.crt" class="more">TrusAuth - David Miller Global Services CA1 - G2</a></li>
                     <li><a href="https://cacerts2.davidmiller.top/GlobalServicesCA2G2.crt" class="more">TrusAuth - David Miller Global Services CA2 - G2</a></li>
                     <li><a href="https://repo.davidmiller.top/pki/partner/TrusAuth/cross-sign/RootCA_TrusAuth.zip" class="more">TrusAuth - David Miller Root CA Bundle</a></li>
                 </ul>
                 Partner - Raytonne:
                 <ul class="disc">
-                    <li><a href="https://raytonne.cn/PKI/" class="more">Website</a></li>
+                    <li><a href="https://raytonne.cn/PKI/" class="more">Raytonne PKI Website</a></li>
                     <li><a href="https://cacerts2.davidmiller.top/GlobalServicesCA3.crt" class="more">Raytonne - David Miller Global Services CA3 - G1</a></li>
                     <li><a href="https://repo.davidmiller.top/pki/partner/Raytonne/cross-sign/RootCA_Raytonne.zip" class="more">Raytonne - David Miller Root CA Bundle</a></li>
                 </ul>
@@ -154,8 +149,8 @@
                         Tool:
                         <ul class="disc">
                             
-                            <li><a href="https://repo.davidmiller.top/pki/tools/latest/TrustRootCATool.exe" class="more">Trust Root CA Tool</a></li>
-                            <li><a href="https://pki.davidmiller.top/log/" class="more">Update Log (v3.8)</a></li>
+                            <li><a href="https://repo.davidmiller.top/pki/tools/TrustRootCATool_v13.exe" class="more">Trust Root CA Tool (v13)</a></li>
+                            <li><a href="https://pki.davidmiller.top/log/" class="more">Update Log (v3.8.1)</a></li>
                             <li><a href="https://github.com/CitizenBeta2/PKI" class="more">GitHub Repository</a></li>
                         </ul>
                         Audit:
@@ -179,7 +174,7 @@
                 <table>
                     <td>
                 <ul class="disc">
-                <li><a href="https://notice.davidmiller.top/pki/10-13-2022/" class="more">Latest (10-13-2022)</a></li>
+                <li><a href="https://notice.davidmiller.top/pki/10-20-2022/" class="more">Latest (10-20-2022)</a></li>
                 <li><a href="https://repo.davidmiller.top/pki/notice/archive/" class="more">Notice Archive</a></li>
                 </ul>
                 </td></table>
